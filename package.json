@@ -8,7 +8,7 @@
   "description": "Application for delivering the drones",
   "main": "dist/api.js",
   "engines": {
-    "node": ">=4.4.0"
+    "node": ">=6.10.2"
   },
   "files": [
     "dist",
@@ -22,7 +22,8 @@
     "url": "git@github.com:shaktiskm/drone-delivery.git"
   },
   "dependencies": {
-    "q": "^1.4.1"
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.1",
